@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--character code-->
+    <meta charset="UTF-8">
+
+    <!--makes the web for mobile too-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--title for web-->
+    <title>To-Do List App</title>
+
+    <!--links the "script.css" file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!--main container-->
+    <div class="container">
+        <!--main heading-->
+        <h1>My To-Do List</h1>
+
+        <!--section for entering tasks-->
+        <div class="input-section">
+
+            <!--box for inputting new tasks-->
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+
+            <!--button for new task-->
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <!--list(unordered) will appear-->
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <!--links "script.js" file-->
+    <script src="script.js"></script>
+</body>
+
+
+</html>
