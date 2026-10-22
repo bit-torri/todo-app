@@ -1,3 +1,7 @@
+/*body {
+    background: red !important;
+}
+
 /* remove default browser spacing*/
 * {
   margin: 0;
@@ -23,7 +27,7 @@ body {
 }
 
 /* main app container*/
-.app-container {
+.container {
     width: 500px;
     background-color: #d89dd5;
     /*spacing*/
@@ -43,20 +47,20 @@ h1 {
 }
 
 /*input box styling*/
-.input-field {
+.input-section {
     display: flex;
     gap: 10px;
 }
 
 /*task input box*/
-#task-input {   
+#taskInput {   
     flex: 1;
     padding: 10px;
     font-size: 16px;
 }
 
 /*add task button styling*/
-#add-task-btn {
+#addTaskBtn {
     padding: 10px 15px;
     border: none;
     background-color: #68b3f0;
@@ -66,12 +70,12 @@ h1 {
 }
 
 /*extra styling for add task button on hover*/
-#add-task-btn:hover {
+#addTaskBtn:hover {
     background-color: #2467e4;
 }
 
 /*task list styling*/
-#task-list {
+#taskList {
     list-style-type: none;
     margin-top: 20px;
 }
