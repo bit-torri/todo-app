@@ -1,0 +1,129 @@
+/* remove default browser spacing*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styling the page*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2467e4f9;
+  color: #68b3f0;
+
+  /*center the app horizontally*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  /*space from top*/
+    padding-top: 50px;
+
+}
+
+/* main app container*/
+.app-container {
+    width: 500px;
+    background-color: #d89dd5;
+    /*spacing*/
+    padding: 25px;
+    /*rounded corners*/
+    border-radius: 10px;
+    /*shadow effect*/
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+/*main title*/
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*input box styling*/
+.input-field {
+    display: flex;
+    gap: 10px;
+}
+
+/*task input box*/
+#task-input {   
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*add task button styling*/
+#add-task-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #68b3f0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*extra styling for add task button on hover*/
+#add-task-btn:hover {
+    background-color: #2467e4;
+}
+
+/*task list styling*/
+#task-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+/*individual task item styling*/
+.task-item {
+    display: flex;
+
+    /*space task text and buttons evenly*/
+    justify-content: space-between;
+    align-items: center;
+
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 12px;
+
+    border-radius: 5px;
+}
+
+/*completed task styling*/
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/*container for complete and delete buttons*/
+.task-buttons {
+    margin-left: 5px;
+    border:none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*complete button styling*/
+.complete-btn {
+    background-color: #68b3f0;
+    color: #fff;
+}
+
+/*delete button styling*/
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/*extra styling for complete button on hover*/
+.complete-btn:hover {
+    background: #2467e4;
+}
+
+/*extra styling for delete button on hover*/
+.delete-btn:hover {
+    background: #c0392b;
+}
